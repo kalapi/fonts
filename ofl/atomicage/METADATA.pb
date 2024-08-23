@@ -9,8 +9,11 @@ fonts {
   weight: 400
   filename: "AtomicAge-Regular.ttf"
   post_script_name: "AtomicAge-Regular"
-  full_name: "Atomic Age"
-  copyright: "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com eben@eyebytes.com) with Reserved Font Name \"Atomic Age\"."
+  full_name: "Atomic Age Regular"
+  copyright: "Copyright (c) 2013 - 2016, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \'Atomic Age\'."
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/EbenSorkin/Atomic-Age"
+}

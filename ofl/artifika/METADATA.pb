@@ -8,9 +8,26 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Artifika-Regular.ttf"
-  post_script_name: "Artifika-Medium"
-  full_name: "Artifika Medium"
-  copyright: "Copyright (c) 2011 by Yulya Zhdanova | Cyreal (a@cyreal.org). All rights reserved."
+  post_script_name: "Artifika-Regular"
+  full_name: "Artifika Regular"
+  copyright: "Copyright 2010 The Artifika Project Authors (https://github.com/cyrealtype/Artifika)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/cyrealtype/Artifika"
+  commit: "50137a4bf13c4918f78d4b566d14ae3dde703456"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  files {
+    source_file: "fonts/ttf/Artifika-Regular.ttf"
+    dest_file: "Artifika-Regular.ttf"
+  }
+  branch: "master"
+}

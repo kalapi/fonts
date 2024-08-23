@@ -14,6 +14,7 @@ fonts {
 }
 subsets: "menu"
 subsets: "cyrillic"
-subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

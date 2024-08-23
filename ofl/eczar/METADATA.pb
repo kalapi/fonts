@@ -1,5 +1,5 @@
 name: "Eczar"
-designer: "Rosetta"
+designer: "Rosetta, Vaibhav Singh"
 license: "OFL"
 category: "SERIF"
 date_added: "2015-06-03"
@@ -7,48 +7,36 @@ fonts {
   name: "Eczar"
   style: "normal"
   weight: 400
-  filename: "Eczar-Regular.ttf"
+  filename: "Eczar[wght].ttf"
   post_script_name: "Eczar-Regular"
-  full_name: "Eczar"
-  copyright: "Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry s.r.o. (post-production)."
+  full_name: "Eczar Regular"
+  copyright: "Copyright 2014 The Eczar Project Authors (https://github.com/rosettatype/eczar)"
 }
-fonts {
-  name: "Eczar"
-  style: "normal"
-  weight: 500
-  filename: "Eczar-Medium.ttf"
-  post_script_name: "Eczar-Medium"
-  full_name: "Eczar Medium"
-  copyright: "Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry s.r.o. (post-production)."
-}
-fonts {
-  name: "Eczar"
-  style: "normal"
-  weight: 600
-  filename: "Eczar-SemiBold.ttf"
-  post_script_name: "Eczar-SemiBold"
-  full_name: "Eczar SemiBold"
-  copyright: "Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry s.r.o. (post-production)."
-}
-fonts {
-  name: "Eczar"
-  style: "normal"
-  weight: 700
-  filename: "Eczar-Bold.ttf"
-  post_script_name: "Eczar-Bold"
-  full_name: "Eczar Bold"
-  copyright: "Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry s.r.o. (post-production)."
-}
-fonts {
-  name: "Eczar"
-  style: "normal"
-  weight: 800
-  filename: "Eczar-ExtraBold.ttf"
-  post_script_name: "Eczar-ExtraBold"
-  full_name: "Eczar ExtraBold"
-  copyright: "Copyright (c) 2014, Vaibhav Singh (design) and Rosetta Type Foundry s.r.o. (post-production)."
-}
-subsets: "menu"
 subsets: "devanagari"
+subsets: "greek"
+subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 800.0
+}
+source {
+  repository_url: "https://github.com/rosettatype/eczar"
+  commit: "f248ec9c0c5e3a9442d22824cc1cba6c713725d5"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "release/variable/Eczar[wght].ttf"
+    dest_file: "Eczar[wght].ttf"
+  }
+  files {
+    source_file: "DESCRIPTION.en_us.html"
+    dest_file: "DESCRIPTION.en_us.html"
+  }
+  branch: "master"
+}

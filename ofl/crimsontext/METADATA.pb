@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "CrimsonText-Regular.ttf"
-  post_script_name: "CrimsonText-Roman"
+  post_script_name: "CrimsonText-Regular"
   full_name: "Crimson Text Regular"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)"
 }
 fonts {
   name: "Crimson Text"
@@ -19,25 +19,25 @@ fonts {
   filename: "CrimsonText-Italic.ttf"
   post_script_name: "CrimsonText-Italic"
   full_name: "Crimson Text Italic"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)"
 }
 fonts {
   name: "Crimson Text"
   style: "normal"
   weight: 600
-  filename: "CrimsonText-Semibold.ttf"
-  post_script_name: "CrimsonText-Semibold"
-  full_name: "Crimson Text Bold"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  filename: "CrimsonText-SemiBold.ttf"
+  post_script_name: "CrimsonText-SemiBold"
+  full_name: "Crimson Text SemiBold"
+  copyright: "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)"
 }
 fonts {
   name: "Crimson Text"
   style: "italic"
   weight: 600
-  filename: "CrimsonText-SemiboldItalic.ttf"
-  post_script_name: "CrimsonText-SemiboldItalic"
-  full_name: "Crimson Text Bold Italic"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  filename: "CrimsonText-SemiBoldItalic.ttf"
+  post_script_name: "CrimsonText-SemiBoldItalic"
+  full_name: "Crimson Text SemiBold Italic"
+  copyright: "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)"
 }
 fonts {
   name: "Crimson Text"
@@ -46,7 +46,7 @@ fonts {
   filename: "CrimsonText-Bold.ttf"
   post_script_name: "CrimsonText-Bold"
   full_name: "Crimson Text Bold"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)"
 }
 fonts {
   name: "Crimson Text"
@@ -55,7 +55,42 @@ fonts {
   filename: "CrimsonText-BoldItalic.ttf"
   post_script_name: "CrimsonText-BoldItalic"
   full_name: "Crimson Text Bold Italic"
-  copyright: "Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org), with Reserved Font Name \"Crimson\"."
+  copyright: "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/googlefonts/Crimson"
+  commit: "4f1458ae64c6c0d9c5fdfbf5095c7fabe0fa063f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/CrimsonText-Bold.ttf"
+    dest_file: "CrimsonText-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CrimsonText-BoldItalic.ttf"
+    dest_file: "CrimsonText-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CrimsonText-Italic.ttf"
+    dest_file: "CrimsonText-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CrimsonText-Regular.ttf"
+    dest_file: "CrimsonText-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CrimsonText-SemiBold.ttf"
+    dest_file: "CrimsonText-SemiBold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/CrimsonText-SemiBoldItalic.ttf"
+    dest_file: "CrimsonText-SemiBoldItalic.ttf"
+  }
+  branch: "master"
+}

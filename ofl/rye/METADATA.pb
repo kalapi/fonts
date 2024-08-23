@@ -10,8 +10,10 @@ fonts {
   filename: "Rye-Regular.ttf"
   post_script_name: "Rye-Regular"
   full_name: "Rye Regular"
-  copyright: "Copyright (c) 2012, Sorkin Type Co (eben@eyebytes.com) with Reserved Font Name 'Rye'"
+  copyright: "Copyright (c) 2012, Sorkin Type Co (eben@eyebytes.com) with Reserved Font Name \'Rye\'"
 }
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SERIF"
+classifications: "DISPLAY"

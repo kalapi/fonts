@@ -9,10 +9,12 @@ fonts {
   weight: 400
   filename: "RozhaOne-Regular.ttf"
   post_script_name: "RozhaOne-Regular"
-  full_name: "Rozha One"
+  full_name: "Rozha One Regular"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+stroke: "SERIF"
+classifications: "DISPLAY"

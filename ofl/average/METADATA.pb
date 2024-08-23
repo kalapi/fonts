@@ -9,9 +9,22 @@ fonts {
   weight: 400
   filename: "Average-Regular.ttf"
   post_script_name: "Average-Regular"
-  full_name: "Average"
-  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Average\""
+  full_name: "Average Regular"
+  copyright: "Copyright 2012 The Average Project Authors (https://github.com/etunni/average)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/etunni/average"
+  commit: "6583341221fb0625ba1b9c3ee2a7490d57df951f"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Average-Regular.ttf"
+    dest_file: "Average-Regular.ttf"
+  }
+  branch: "master"
+}

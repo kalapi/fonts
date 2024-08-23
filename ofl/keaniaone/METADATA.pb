@@ -10,8 +10,10 @@ fonts {
   filename: "KeaniaOne-Regular.ttf"
   post_script_name: "KeaniaOne-Regular"
   full_name: "Keania One"
-  copyright: "Copyright (c) 2012, Julia Petretta (julia.petretta@googlemail.com), with Reserved Font Name 'Keania'"
+  copyright: "Copyright (c) 2012, Julia Petretta (julia.petretta@googlemail.com), with Reserved Font Name \'Keania\'"
 }
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

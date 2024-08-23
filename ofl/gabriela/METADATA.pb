@@ -9,10 +9,26 @@ fonts {
   weight: 400
   filename: "Gabriela-Regular.ttf"
   post_script_name: "Gabriela-Regular"
-  full_name: "Gabriela"
-  copyright: "Copyright (c) 2013, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Gabriela'"
+  full_name: "Gabriela Regular"
+  copyright: "Copyright 2013 The Gabriela Project Authors (https://github.com/etunni/Gabriela), with Reserved Font Name \"Gabriela\"."
 }
-subsets: "menu"
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/etunni/Gabriela"
+  commit: "961e4fb89c38cbe8ddcc3c9268c42d94c834d5da"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Gabriela-Regular.ttf"
+    dest_file: "Gabriela-Regular.ttf"
+  }
+  branch: "master"
+}
+stroke: "SERIF"
+classifications: "DISPLAY"

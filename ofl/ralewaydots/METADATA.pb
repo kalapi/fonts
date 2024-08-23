@@ -1,5 +1,5 @@
 name: "Raleway Dots"
-designer: "Multiple Designers"
+designer: "Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida, Brenda Gallo"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-09-07"
@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

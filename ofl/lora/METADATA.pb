@@ -7,39 +7,48 @@ fonts {
   name: "Lora"
   style: "normal"
   weight: 400
-  filename: "Lora-Regular.ttf"
+  filename: "Lora[wght].ttf"
   post_script_name: "Lora-Regular"
-  full_name: "Lora"
-  copyright: "Copyright (c) 2013 by Cyreal (www.cyreal.org, a@cyreal.org). All rights reserved."
+  full_name: "Lora Regular"
+  copyright: "Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic), with Reserved Font Name \"Lora\"."
 }
 fonts {
   name: "Lora"
   style: "italic"
   weight: 400
-  filename: "Lora-Italic.ttf"
+  filename: "Lora-Italic[wght].ttf"
   post_script_name: "Lora-Italic"
   full_name: "Lora Italic"
-  copyright: "Copyright (c) 2011-2013 by Cyreal (www.cyreal.org a@cyreal.org). All rights reserved."
+  copyright: "Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic), with Reserved Font Name \"Lora\"."
 }
-fonts {
-  name: "Lora"
-  style: "normal"
-  weight: 700
-  filename: "Lora-Bold.ttf"
-  post_script_name: "Lora-Bold"
-  full_name: "Lora Bold"
-  copyright: "Copyright (c) 2011-2013 by Cyreal (www.cyreal.org a@cyreal.org). All rights reserved."
-}
-fonts {
-  name: "Lora"
-  style: "italic"
-  weight: 700
-  filename: "Lora-BoldItalic.ttf"
-  post_script_name: "Lora-BoldItalic"
-  full_name: "Lora Bold Italic"
-  copyright: "Copyright (c) 2011-2013 by Cyreal (www.cyreal.org a@cyreal.org). All rights reserved."
-}
-subsets: "menu"
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
+subsets: "menu"
+subsets: "symbols"
+subsets: "vietnamese"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/cyrealtype/Lora-Cyrillic"
+  commit: "403b1a66ca2e79f81d749c5299559e168591a4df"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Lora[wght].ttf"
+    dest_file: "Lora[wght].ttf"
+  }
+  files {
+    source_file: "fonts/variable/Lora-Italic[wght].ttf"
+    dest_file: "Lora-Italic[wght].ttf"
+  }
+  branch: "main"
+}
+stroke: "SERIF"

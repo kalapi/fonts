@@ -6,29 +6,20 @@ date_added: "2011-02-02"
 fonts {
   name: "Kreon"
   style: "normal"
-  weight: 300
-  filename: "Kreon-Light.ttf"
+  weight: 400
+  filename: "Kreon[wght].ttf"
   post_script_name: "Kreon-Light"
   full_name: "Kreon Light"
-  copyright: "Copyright (c) 2010 by Julia Petretta (www.juliapetretta.com julia.petretta@googlemail.com), with Reserved Font Name \"Kreon\"."
+  copyright: "Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon), with Reserved Font Name \"Kreon\""
 }
-fonts {
-  name: "Kreon"
-  style: "normal"
-  weight: 400
-  filename: "Kreon-Regular.ttf"
-  post_script_name: "Kreon-Regular"
-  full_name: "Kreon Regular"
-  copyright: "Copyright (c) 2010 by Julia Petretta (www.juliapetretta.com julia.petretta@googlemail.com), with Reserved Font Name \"Kreon\"."
-}
-fonts {
-  name: "Kreon"
-  style: "normal"
-  weight: 700
-  filename: "Kreon-Bold.ttf"
-  post_script_name: "Kreon-Bold"
-  full_name: "Kreon Bold"
-  copyright: "Copyright (c) 2010 by Julia Petretta (www.juliapetretta.com julia.petretta@googlemail.com), with Reserved Font Name \"Kreon\"."
-}
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+axes {
+  tag: "wght"
+  min_value: 300.0
+  max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/googlefonts/kreon"
+}

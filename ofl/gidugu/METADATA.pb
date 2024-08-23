@@ -15,3 +15,8 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "telugu"
+source {
+  repository_url: "https://github.com/appajid/gidugu"
+}
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

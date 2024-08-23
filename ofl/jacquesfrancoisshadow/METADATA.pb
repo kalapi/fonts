@@ -10,7 +10,12 @@ fonts {
   filename: "JacquesFrancoisShadow-Regular.ttf"
   post_script_name: "JacquesFrancoisShadow-Regular"
   full_name: "Jacques Francois Shadow"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name 'Jacques Francois'"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name \'Jacques Francois\'"
 }
 subsets: "menu"
 subsets: "latin"
+source {
+  repository_url: "https://github.com/cyrealtype/Jacques-Francois-Shadow"
+}
+stroke: "SERIF"
+classifications: "DISPLAY"

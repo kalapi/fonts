@@ -6,49 +6,33 @@ date_added: "2014-06-25"
 fonts {
   name: "Teko"
   style: "normal"
-  weight: 300
-  filename: "Teko-Light.ttf"
+  weight: 400
+  filename: "Teko[wght].ttf"
   post_script_name: "Teko-Light"
   full_name: "Teko Light"
-  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+  copyright: "Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)"
 }
-fonts {
-  name: "Teko"
-  style: "normal"
-  weight: 400
-  filename: "Teko-Regular.ttf"
-  post_script_name: "Teko-Regular"
-  full_name: "Teko Regular"
-  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
-}
-fonts {
-  name: "Teko"
-  style: "normal"
-  weight: 500
-  filename: "Teko-Medium.ttf"
-  post_script_name: "Teko-Medium"
-  full_name: "Teko Medium"
-  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
-}
-fonts {
-  name: "Teko"
-  style: "normal"
-  weight: 600
-  filename: "Teko-SemiBold.ttf"
-  post_script_name: "Teko-SemiBold"
-  full_name: "Teko SemiBold"
-  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
-}
-fonts {
-  name: "Teko"
-  style: "normal"
-  weight: 700
-  filename: "Teko-Bold.ttf"
-  post_script_name: "Teko-Bold"
-  full_name: "Teko Bold"
-  copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
-}
-subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+axes {
+  tag: "wght"
+  min_value: 300.0
+  max_value: 700.0
+}
+source {
+  repository_url: "https://www.github.com/googlefonts/teko"
+  commit: "6715caf853f342eef57ea367b6c2991cd3928398"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/variable/Teko[wght].ttf"
+    dest_file: "Teko[wght].ttf"
+  }
+  branch: "master"
+}
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

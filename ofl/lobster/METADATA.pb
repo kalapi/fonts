@@ -9,11 +9,17 @@ fonts {
   weight: 400
   filename: "Lobster-Regular.ttf"
   post_script_name: "Lobster-Regular"
-  full_name: "Lobster"
-  copyright: "Copyright (c) 2010 by Pablo Impallari (www.impallari.com)"
+  full_name: "Lobster Regular"
+  copyright: "Copyright 2010 The Lobster Project Authors (https://github.com/impallari/The-Lobster-Font), with Reserved Font Name \"Lobster\"."
 }
-subsets: "menu"
 subsets: "cyrillic"
+subsets: "cyrillic-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "vietnamese"
+source {
+  repository_url: "https://github.com/impallari/The-Lobster-Font"
+}
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

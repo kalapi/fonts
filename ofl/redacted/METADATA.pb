@@ -8,9 +8,24 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Redacted-Regular.ttf"
-  post_script_name: "RedactedRegular"
+  post_script_name: "Redacted-Regular"
   full_name: "Redacted Regular"
-  copyright: "Copyright (c) 2013, Christian Naths (christiannaths@gmail.com christiannaths.com)"
+  copyright: "Copyright 2013 The Redacted Project Authors (https://github.com/christiannaths/redacted-font)"
 }
-subsets: "menu"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/christiannaths/redacted-font"
+  files {
+    source_file: "Redacted/fonts/ttf/Redacted-Regular.ttf"
+    dest_file: "Redacted-Regular.ttf"
+  }
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  branch: "master"
+}
+classifications: "DISPLAY"
+classifications: "SYMBOLS"

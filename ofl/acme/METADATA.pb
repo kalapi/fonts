@@ -1,5 +1,5 @@
 name: "Acme"
-designer: "Huerta Tipográfica"
+designer: "Juan Pablo del Peral, Huerta Tipográfica"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-12-19"
@@ -9,9 +9,10 @@ fonts {
   weight: 400
   filename: "Acme-Regular.ttf"
   post_script_name: "Acme-Regular"
-  full_name: "Acme"
-  copyright: "Copyright (c) 2011 by Juan Pablo del Peral (huertatipografica.com.ar info@huertatipografica.com.ar), with Reserved Font Name \"Acme\""
+  full_name: "Acme Regular"
+  copyright: "Copyright (c) 2011 by Juan Pablo del Peral (info@huertatipografica.com.ar), with Reserved Font Name \"Acme\""
 }
-subsets: "menu"
 subsets: "latin"
-subsets: "latin-ext"
+subsets: "menu"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

@@ -7,39 +7,20 @@ fonts {
   name: "Arimo"
   style: "normal"
   weight: 400
-  filename: "Arimo-Regular.ttf"
-  post_script_name: "Arimo"
-  full_name: "Arimo"
-  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
+  filename: "Arimo[wght].ttf"
+  post_script_name: "Arimo-Regular"
+  full_name: "Arimo Regular"
+  copyright: "Copyright 2020 The Arimo Project Authors (https://github.com/googlefonts/arimo)"
 }
 fonts {
   name: "Arimo"
   style: "italic"
   weight: 400
-  filename: "Arimo-Italic.ttf"
+  filename: "Arimo-Italic[wght].ttf"
   post_script_name: "Arimo-Italic"
   full_name: "Arimo Italic"
-  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
+  copyright: "Copyright 2020 The Arimo Project Authors (https://github.com/googlefonts/arimo)"
 }
-fonts {
-  name: "Arimo"
-  style: "normal"
-  weight: 700
-  filename: "Arimo-Bold.ttf"
-  post_script_name: "Arimo-Bold"
-  full_name: "Arimo Bold"
-  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
-}
-fonts {
-  name: "Arimo"
-  style: "italic"
-  weight: 700
-  filename: "Arimo-BoldItalic.ttf"
-  post_script_name: "Arimo-BoldItalic"
-  full_name: "Arimo Bold Italic"
-  copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
-}
-subsets: "menu"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"
@@ -47,4 +28,42 @@ subsets: "greek-ext"
 subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
 subsets: "vietnamese"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  max_value: 700.0
+}
+source {
+  repository_url: "https://github.com/TypeNetwork/Arimo"
+  files {
+    source_file: "LICENSE.txt"
+    dest_file: "LICENSE.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Arimo-Bold.ttf"
+    dest_file: "static/Arimo-Bold.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Arimo-BoldItalic.ttf"
+    dest_file: "static/Arimo-BoldItalic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Arimo-Italic.ttf"
+    dest_file: "static/Arimo-Italic.ttf"
+  }
+  files {
+    source_file: "fonts/ttf/Arimo-Regular.ttf"
+    dest_file: "static/Arimo-Regular.ttf"
+  }
+  files {
+    source_file: "fonts/vf/Arimo-Italic[wght].ttf"
+    dest_file: "Arimo-Italic[wght].ttf"
+  }
+  files {
+    source_file: "fonts/vf/Arimo[wght].ttf"
+    dest_file: "Arimo[wght].ttf"
+  }
+  branch: "master"
+}

@@ -10,8 +10,21 @@ fonts {
   filename: "MateSC-Regular.ttf"
   post_script_name: "MateSC-Regular"
   full_name: "Mate SC Regular"
-  copyright: "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Mate\""
+  copyright: "Copyright 2011 The Mate Project Authors (https://github.com/etunni/mate) with Reserved Font Name \"Mate\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/etunni/mate"
+  commit: "2ea8febc952610379af663b1651411493d34beea"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/matesc/ttf/MateSC-Regular.ttf"
+    dest_file: "MateSC-Regular.ttf"
+  }
+  branch: "master"
+}

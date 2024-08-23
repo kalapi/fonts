@@ -1,5 +1,5 @@
 name: "Ewert"
-designer: "Multiple Designers"
+designer: "Johan Kallas, Mihkel Virkus"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-02-08"
@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SERIF"
+classifications: "DISPLAY"

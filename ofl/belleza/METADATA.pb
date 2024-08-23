@@ -9,9 +9,22 @@ fonts {
   weight: 400
   filename: "Belleza-Regular.ttf"
   post_script_name: "Belleza-Regular"
-  full_name: "Belleza"
-  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Belleza\""
+  full_name: "Belleza Regular"
+  copyright: "Copyright 2012 The Belleza Project Authors (https://github.com/etunni/belleza)"
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/etunni/belleza"
+  commit: "af3974fe84e2cfd236455a14d2c708264b692167"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/ttf/Belleza-Regular.ttf"
+    dest_file: "Belleza-Regular.ttf"
+  }
+  branch: "master"
+}

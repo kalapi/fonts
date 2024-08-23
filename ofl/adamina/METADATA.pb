@@ -9,8 +9,11 @@ fonts {
   weight: 400
   filename: "Adamina-Regular.ttf"
   post_script_name: "Adamina-Regular"
-  full_name: "Adamina"
-  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org) with Reserved Font Name 'Adamina'"
+  full_name: "Adamina Regular"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org) with Reserved Font Name \'Adamina\'"
 }
-subsets: "menu"
+source {
+  repository_url: "github.com/cyrealtype/Adamina"
+}
 subsets: "latin"
+subsets: "menu"

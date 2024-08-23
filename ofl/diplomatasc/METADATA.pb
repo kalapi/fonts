@@ -9,9 +9,24 @@ fonts {
   weight: 400
   filename: "DiplomataSC-Regular.ttf"
   post_script_name: "DiplomataSC-Regular"
-  full_name: "Diplomata SC"
-  copyright: "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Diplomata\""
+  full_name: "Diplomata SC Regular"
+  copyright: "Copyright 2011 The Diplomata Project Authors (https://github.com/etunni/diplomata), with Reserved Font Name \"Diplomata\""
 }
-subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/etunni/diplomata"
+  commit: "32dc35e6b420631acc10808e1f92f74e3048e81d"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "fonts/diplomatasc/ttf/DiplomataSC-Regular.ttf"
+    dest_file: "DiplomataSC-Regular.ttf"
+  }
+  branch: "master"
+}
+stroke: "SERIF"
+classifications: "DISPLAY"

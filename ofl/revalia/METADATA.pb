@@ -1,5 +1,5 @@
 name: "Revalia"
-designer: "Multiple Designers"
+designer: "Johan Kallas, Mihkel Virkus"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2012-03-14"
@@ -15,3 +15,5 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
+stroke: "SANS_SERIF"
+classifications: "DISPLAY"

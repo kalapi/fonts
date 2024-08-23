@@ -1,7 +1,7 @@
 name: "Fasthand"
-designer: "Danh Hong"
+designer: "Danh Hong, Neapolitan"
 license: "OFL"
-category: "SERIF"
+category: "DISPLAY"
 date_added: "2012-05-24"
 fonts {
   name: "Fasthand"
@@ -9,8 +9,23 @@ fonts {
   weight: 400
   filename: "Fasthand-Regular.ttf"
   post_script_name: "Fasthand-Regular"
-  full_name: "Fasthand"
-  copyright: "Copyright (c) 2012, Danh Hong (khmertype.blogspot.com danhhong@gmail.com), with Reserved Font Name Fasthand"
+  full_name: "Fasthand Regular"
+  copyright: "Copyright 2020 The Fasthand Project Authors (https://github.com/danhhong/Fasthand)"
 }
-subsets: "menu"
 subsets: "khmer"
+subsets: "latin"
+subsets: "menu"
+source {
+  repository_url: "https://github.com/danhhong/Fasthand"
+  files {
+    source_file: "OFL.txt"
+    dest_file: "OFL.txt"
+  }
+  files {
+    source_file: "Release/ttf/Fasthand-Regular.ttf"
+    dest_file: "Fasthand-Regular.ttf"
+  }
+  branch: "master"
+}
+classifications: "DISPLAY"
+classifications: "HANDWRITING"
