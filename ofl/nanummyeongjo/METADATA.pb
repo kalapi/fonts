@@ -1,7 +1,7 @@
 name: "Nanum Myeongjo"
 designer: "Sandoll Communication"
 license: "OFL"
-category: "SERIF"
+category: "HANDWRITING"
 date_added: "2012-05-09"
 fonts {
   name: "Nanum Myeongjo"
@@ -30,6 +30,5 @@ fonts {
   full_name: "NanumMyeongjoExtraBold"
   copyright: "Copyright © 2010 NHN Corporation. All rights reserved. Font designed by FONTRIX."
 }
-subsets: "korean"
-subsets: "latin"
 subsets: "menu"
+subsets: "korean"

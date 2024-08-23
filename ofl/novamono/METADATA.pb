@@ -10,11 +10,9 @@ fonts {
   filename: "NovaMono.ttf"
   post_script_name: "NovaMono"
   full_name: "NovaMono"
-  copyright: "Copyright (c) 2011, Wojciech \'wmk69\' Kalinowski (wmk69@o2.pl)"
+  copyright: "Copyright (c) 2011, Wojciech 'wmk69' Kalinowski (wmk69@o2.pl)"
 }
 subsets: "menu"
 subsets: "greek"
 subsets: "latin"
 subsets: "latin-ext"
-classifications: "DISPLAY"
-classifications: "MONOSPACE"

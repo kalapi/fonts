@@ -14,6 +14,4 @@ fonts {
 }
 subsets: "menu"
 subsets: "latin"
-source {
-  repository_url: "https://github.com/cyrealtype/Marko-One"
-}
+subsets: "latin-ext"

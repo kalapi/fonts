@@ -25,7 +25,3 @@ subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
-source {
-  repository_url: "https://github.com/etunni/glegoo"
-}
-stroke: "SLAB_SERIF"

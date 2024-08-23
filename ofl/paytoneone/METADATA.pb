@@ -7,27 +7,10 @@ fonts {
   name: "Paytone One"
   style: "normal"
   weight: 400
-  filename: "PaytoneOne-Regular.ttf"
-  post_script_name: "PaytoneOne-Regular"
-  full_name: "Paytone One Regular"
-  copyright: "Copyright 2011 The Paytone Project Authors (https://github.com/googlefonts/paytoneFont)"
+  filename: "PaytoneOne.ttf"
+  post_script_name: "PaytoneOne"
+  full_name: "Paytone One"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Paytone'. All rights reserved."
 }
-subsets: "latin"
-subsets: "latin-ext"
 subsets: "menu"
-subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/paytoneFont"
-  commit: "b1438bc11966d48a1e9e8943b7b8a32dcb0c533c"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "fonts/ttf/PaytoneOne-Regular.ttf"
-    dest_file: "PaytoneOne-Regular.ttf"
-  }
-  branch: "main"
-}
-stroke: "SANS_SERIF"
-classifications: "DISPLAY"
+subsets: "latin"

@@ -7,25 +7,10 @@ fonts {
   name: "Dangrek"
   style: "normal"
   weight: 400
-  filename: "Dangrek-Regular.ttf"
-  post_script_name: "Dangrek-Regular"
-  full_name: "Dangrek Regular"
-  copyright: "Copyright 2020 The Dangrek Project Authors (https://github.com/danhhong/Dangrek)"
+  filename: "Dangrek.ttf"
+  post_script_name: "Dangrek"
+  full_name: "Dangrek"
+  copyright: "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com), with Reserved Font Name Khmer OS Dangrek. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
 }
-subsets: "khmer"
-subsets: "latin"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/Dangrek"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "Release/ttf/Dangrek-Regular.ttf"
-    dest_file: "Dangrek-Regular.ttf"
-  }
-  branch: "master"
-}
-stroke: "SANS_SERIF"
-classifications: "DISPLAY"
+subsets: "khmer"

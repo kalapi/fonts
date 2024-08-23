@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Tinos-Regular.ttf"
-  post_script_name: "Tinos-Regular"
-  full_name: "Tinos Regular"
+  post_script_name: "Tinos"
+  full_name: "Tinos"
   copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
 }
 fonts {
@@ -39,6 +39,7 @@ fonts {
   full_name: "Tinos Bold Italic"
   copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
 }
+subsets: "menu"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"
@@ -46,5 +47,4 @@ subsets: "greek-ext"
 subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
-subsets: "menu"
 subsets: "vietnamese"

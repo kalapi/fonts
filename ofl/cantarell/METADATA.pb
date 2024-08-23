@@ -10,16 +10,16 @@ fonts {
   filename: "Cantarell-Regular.ttf"
   post_script_name: "Cantarell-Regular"
   full_name: "Cantarell Regular"
-  copyright: "Copyright 2009 The Cantarell Project Authors (https://github.com/davelab6/cantarell)"
+  copyright: "Copyright (c) 2009 Dave Crossland <dave@lab6.com>"
 }
 fonts {
   name: "Cantarell"
   style: "italic"
   weight: 400
-  filename: "Cantarell-Italic.ttf"
-  post_script_name: "Cantarell-Italic"
-  full_name: "Cantarell Italic"
-  copyright: "Copyright 2009 The Cantarell Project Authors (https://github.com/davelab6/cantarell)"
+  filename: "Cantarell-Oblique.ttf"
+  post_script_name: "Cantarell-Oblique"
+  full_name: "Cantarell Oblique"
+  copyright: "Copyright (c) 2009 Dave Crossland <dave@lab6.com>"
 }
 fonts {
   name: "Cantarell"
@@ -28,20 +28,16 @@ fonts {
   filename: "Cantarell-Bold.ttf"
   post_script_name: "Cantarell-Bold"
   full_name: "Cantarell Bold"
-  copyright: "Copyright 2009 The Cantarell Project Authors (https://github.com/davelab6/cantarell)"
+  copyright: "Copyright (c) 2009 Dave Crossland <dave@lab6.com>"
 }
 fonts {
   name: "Cantarell"
   style: "italic"
   weight: 700
-  filename: "Cantarell-BoldItalic.ttf"
-  post_script_name: "Cantarell-BoldItalic"
-  full_name: "Cantarell Bold Italic"
-  copyright: "Copyright 2009 The Cantarell Project Authors (https://github.com/davelab6/cantarell)"
+  filename: "Cantarell-BoldOblique.ttf"
+  post_script_name: "Cantarell-BoldOblique"
+  full_name: "Cantarell Bold Oblique"
+  copyright: "Copyright (c) 2009 Dave Crossland <dave@lab6.com>"
 }
-subsets: "latin"
-subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/davelab6/cantarell"
-}
+subsets: "latin"

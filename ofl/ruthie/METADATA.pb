@@ -1,5 +1,5 @@
 name: "Ruthie"
-designer: "Robert Leuschke"
+designer: "TypeSETit"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-12-19"
@@ -9,28 +9,9 @@ fonts {
   weight: 400
   filename: "Ruthie-Regular.ttf"
   post_script_name: "Ruthie-Regular"
-  full_name: "Ruthie Regular"
-  copyright: "Copyright 2014 The Ruthie Project Authors (https://github.com/googlefonts/ruthie)"
+  full_name: "Ruthie"
+  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Ruthie\""
 }
+subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
-subsets: "menu"
-subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/ruthie"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
-  }
-  files {
-    source_file: "fonts/ttf/Ruthie-Regular.ttf"
-    dest_file: "Ruthie-Regular.ttf"
-  }
-  branch: "master"
-}
-classifications: "DISPLAY"
-classifications: "HANDWRITING"

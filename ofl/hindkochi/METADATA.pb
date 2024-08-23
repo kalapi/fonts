@@ -52,6 +52,3 @@ subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "malayalam"
-source {
-  repository_url: "https://github.com/itfoundry/hind-kochi"
-}

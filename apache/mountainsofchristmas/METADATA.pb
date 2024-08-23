@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "MountainsofChristmas-Regular.ttf"
   post_script_name: "MountainsofChristmas-Regular"
-  full_name: "Mountains of Christmas Regular"
+  full_name: "Mountains of Christmas"
   copyright: "Copyright (c) 2010 2011, Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com) with Reserved Font Name \"Mountains of Christmas\""
 }
 fonts {
@@ -21,7 +21,5 @@ fonts {
   full_name: "Mountains of Christmas Bold"
   copyright: "Copyright (c) 2010 2011, Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com) with Reserved Font Name \"Mountains of Christmas\""
 }
-subsets: "latin"
 subsets: "menu"
-stroke: "SERIF"
-classifications: "DISPLAY"
+subsets: "latin"

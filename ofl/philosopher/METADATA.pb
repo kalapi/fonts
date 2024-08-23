@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Philosopher-Regular.ttf"
-  post_script_name: "Philosopher-Regular"
-  full_name: "Philosopher Regular"
-  copyright: "Copyright 2011 The Philosopher Project Authors (https://github.com/alexeiva/philosopher)"
+  post_script_name: "Philosopher"
+  full_name: "Philosopher"
+  copyright: "Copyright (c) 2011 by Jovanny Lemonad (lemonad@jovanny.ru). All rights reserved."
 }
 fonts {
   name: "Philosopher"
@@ -19,7 +19,7 @@ fonts {
   filename: "Philosopher-Italic.ttf"
   post_script_name: "Philosopher-Italic"
   full_name: "Philosopher Italic"
-  copyright: "Copyright 2011 The Philosopher Project Authors (https://github.com/alexeiva/philosopher)"
+  copyright: "Copyright (c) 2011 by Jovanny Lemonad (lemonad@jovanny.ru). All rights reserved."
 }
 fonts {
   name: "Philosopher"
@@ -28,7 +28,7 @@ fonts {
   filename: "Philosopher-Bold.ttf"
   post_script_name: "Philosopher-Bold"
   full_name: "Philosopher Bold"
-  copyright: "Copyright 2011 The Philosopher Project Authors (https://github.com/alexeiva/philosopher)"
+  copyright: "Copyright (c) 2011 by Jovanny Lemonad (lemonad@jovanny.ru). All rights reserved."
 }
 fonts {
   name: "Philosopher"
@@ -37,40 +37,8 @@ fonts {
   filename: "Philosopher-BoldItalic.ttf"
   post_script_name: "Philosopher-BoldItalic"
   full_name: "Philosopher Bold Italic"
-  copyright: "Copyright 2011 The Philosopher Project Authors (https://github.com/alexeiva/philosopher)"
+  copyright: "Copyright (c) 2011 by Jovanny Lemonad (lemonad@jovanny.ru). All rights reserved."
 }
-subsets: "cyrillic"
-subsets: "cyrillic-ext"
-subsets: "latin"
-subsets: "latin-ext"
 subsets: "menu"
-subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/alexeiva/philosopher"
-  commit: "9983715d443b6be727d886cd16bce241cf9ad0b7"
-  files {
-    source_file: "fonts/ttf/Philosopher-Regular.ttf"
-    dest_file: "Philosopher-Regular.ttf"
-  }
-  files {
-    source_file: "fonts/ttf/Philosopher-Italic.ttf"
-    dest_file: "Philosopher-Italic.ttf"
-  }
-  files {
-    source_file: "fonts/ttf/Philosopher-Bold.ttf"
-    dest_file: "Philosopher-Bold.ttf"
-  }
-  files {
-    source_file: "fonts/ttf/Philosopher-BoldItalic.ttf"
-    dest_file: "Philosopher-BoldItalic.ttf"
-  }
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
-  }
-  branch: "master"
-}
+subsets: "cyrillic"
+subsets: "latin"

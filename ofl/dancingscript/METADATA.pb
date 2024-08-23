@@ -7,29 +7,19 @@ fonts {
   name: "Dancing Script"
   style: "normal"
   weight: 400
-  filename: "DancingScript[wght].ttf"
-  post_script_name: "DancingScript-Regular"
-  full_name: "Dancing Script Regular"
-  copyright: "Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript), with Reserved Font Name \'Dancing Script\'."
+  filename: "DancingScript-Regular.ttf"
+  post_script_name: "DancingScript"
+  full_name: "Dancing Script"
+  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com). All rights reserved."
 }
-subsets: "latin"
-subsets: "latin-ext"
+fonts {
+  name: "Dancing Script"
+  style: "normal"
+  weight: 700
+  filename: "DancingScript-Bold.ttf"
+  post_script_name: "DancingScript-Bold"
+  full_name: "Dancing Script Bold"
+  copyright: "Copyright (c) 2011 by Pablo Impallari (www.impallari.com impallari@gmail.com) Igino Marini. www.ikern.com. All rights reserved."
+}
 subsets: "menu"
-subsets: "vietnamese"
-axes {
-  tag: "wght"
-  min_value: 400.0
-  max_value: 700.0
-}
-source {
-  repository_url: "https://github.com/googlefonts/DancingScript"
-  files {
-    source_file: "fonts/variable/DancingScript[wght].ttf"
-    dest_file: "DancingScript[wght].ttf"
-  }
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  branch: "master"
-}
+subsets: "latin"

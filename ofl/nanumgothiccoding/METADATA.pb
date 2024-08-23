@@ -23,5 +23,3 @@ fonts {
 }
 subsets: "menu"
 subsets: "korean"
-stroke: "SANS_SERIF"
-classifications: "MONOSPACE"

@@ -1,7 +1,7 @@
 name: "Lohit Tamil"
 designer: "Multiple Designers"
 license: "OFL"
-category: "SANS_SERIF"
+category: "SERIF"
 date_added: "2011-12-12"
 fonts {
   name: "Lohit Tamil"
@@ -14,6 +14,3 @@ fonts {
 }
 subsets: "menu"
 subsets: "tamil"
-source {
-  repository_url: "https://github.com/pravins/lohit"
-}

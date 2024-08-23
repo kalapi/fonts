@@ -24,5 +24,3 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
-stroke: "SERIF"
-classifications: "DISPLAY"

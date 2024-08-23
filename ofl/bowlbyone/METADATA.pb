@@ -8,11 +8,10 @@ fonts {
   style: "normal"
   weight: 400
   filename: "BowlbyOne-Regular.ttf"
-  post_script_name: "BowlbyOne-Regular"
-  full_name: "Bowlby One Regular"
+  post_script_name: "BowlbyOne"
+  full_name: "Bowlby One"
   copyright: "Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Bowlby\" \"Bowlby One\" and \"Bowlby One SC\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
 }
-subsets: "latin"
 subsets: "menu"
-stroke: "SANS_SERIF"
-classifications: "DISPLAY"
+subsets: "latin"
+subsets: "latin-ext"

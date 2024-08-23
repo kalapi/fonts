@@ -1,8 +1,9 @@
-Copyright 2011 The Shanti Project Authors (https://github.com/googlefonts/ShantiFont)
+Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk),
+with Reserved Font Names "Shanti".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
-https://scripts.sil.org/OFL
+http://scripts.sil.org/OFL
 
 
 -----------------------------------------------------------

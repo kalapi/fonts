@@ -18,7 +18,7 @@ fonts {
   weight: 400
   filename: "HindSiliguri-Regular.ttf"
   post_script_name: "HindSiliguri-Regular"
-  full_name: "Hind Siliguri Regular"
+  full_name: "Hind Siliguri"
   copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
@@ -48,10 +48,7 @@ fonts {
   full_name: "Hind Siliguri Bold"
   copyright: "Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)"
 }
+subsets: "menu"
 subsets: "bengali"
 subsets: "latin"
 subsets: "latin-ext"
-subsets: "menu"
-source {
-  repository_url: "https://github.com/itfoundry/hind-siliguri"
-}

@@ -9,8 +9,8 @@ fonts {
   weight: 400
   filename: "Bentham-Regular.ttf"
   post_script_name: "Bentham-Regular"
-  full_name: "Bentham Regular"
+  full_name: "Bentham"
   copyright: "Copyright (c) 1999-2010, Ben Weiner (ben@readingtype.org.uk), with Reserved Font Name Bentham."
 }
-subsets: "latin"
 subsets: "menu"
+subsets: "latin"

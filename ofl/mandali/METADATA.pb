@@ -15,7 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "telugu"
-source {
-  repository_url: "https://github.com/appajid/mandali"
-}
-primary_script: "Telu"

@@ -9,24 +9,8 @@ fonts {
   weight: 400
   filename: "Offside-Regular.ttf"
   post_script_name: "Offside-Regular"
-  full_name: "Offside Regular"
-  copyright: "Copyright 2012 The Offside Project Authors (https://github.com/etunni/offside) with Reserved Font Name \'Offside\'"
+  full_name: "Offside"
+  copyright: "Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name 'Offside'"
 }
-subsets: "latin"
-subsets: "latin-ext"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/etunni/offside"
-  commit: "025804545334bb6270119f43fb8fe7d05b31cd7d"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "fonts/ttf/Offside-Regular.ttf"
-    dest_file: "Offside-Regular.ttf"
-  }
-  branch: "master"
-}
-stroke: "SANS_SERIF"
-classifications: "DISPLAY"
+subsets: "latin"

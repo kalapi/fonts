@@ -14,8 +14,3 @@ fonts {
 }
 subsets: "menu"
 subsets: "latin"
-source {
-  repository_url: "https://github.com/theleagueof/goudy-bookletter-1911"
-}
-stroke: "SERIF"
-classifications: "DISPLAY"

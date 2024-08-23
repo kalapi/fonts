@@ -36,6 +36,3 @@ subsets: "greek-ext"
 subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
-source {
-  repository_url: "https://github.com/googlefonts/CardoFont"
-}

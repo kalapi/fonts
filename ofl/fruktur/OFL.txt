@@ -1,8 +1,9 @@
-Copyright 2022 The Fruktur Project Authors (https://github.com/SorkinType/Fruktur)
+Copyright (c) 2013 by Sorkin Type Co (www.sorkintype.com),
+with Reserved Font Name "Fruktur".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
-https://scripts.sil.org/OFL
+http://scripts.sil.org/OFL
 
 
 -----------------------------------------------------------

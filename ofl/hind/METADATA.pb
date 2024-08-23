@@ -34,9 +34,9 @@ fonts {
   name: "Hind"
   style: "normal"
   weight: 600
-  filename: "Hind-SemiBold.ttf"
-  post_script_name: "Hind-SemiBold"
-  full_name: "Hind SemiBold"
+  filename: "Hind-Semibold.ttf"
+  post_script_name: "Hind-Semibold"
+  full_name: "Hind Semibold"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
@@ -48,10 +48,7 @@ fonts {
   full_name: "Hind Bold"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
+subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
-subsets: "menu"
-source {
-  repository_url: "https://github.com/itfoundry/hind"
-}

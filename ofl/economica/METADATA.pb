@@ -42,5 +42,3 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
-stroke: "SANS_SERIF"
-classifications: "DISPLAY"

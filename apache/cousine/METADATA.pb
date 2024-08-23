@@ -8,8 +8,8 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Cousine-Regular.ttf"
-  post_script_name: "Cousine-Regular"
-  full_name: "Cousine Regular"
+  post_script_name: "Cousine"
+  full_name: "Cousine"
   copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
 }
 fonts {
@@ -39,6 +39,7 @@ fonts {
   full_name: "Cousine Bold Italic"
   copyright: "Digitized data copyright (c) 2010-2012 Google Corporation."
 }
+subsets: "menu"
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
 subsets: "greek"
@@ -46,7 +47,4 @@ subsets: "greek-ext"
 subsets: "hebrew"
 subsets: "latin"
 subsets: "latin-ext"
-subsets: "menu"
 subsets: "vietnamese"
-stroke: "SANS_SERIF"
-classifications: "MONOSPACE"

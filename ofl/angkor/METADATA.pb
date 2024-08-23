@@ -7,25 +7,10 @@ fonts {
   name: "Angkor"
   style: "normal"
   weight: 400
-  filename: "Angkor-Regular.ttf"
-  post_script_name: "Angkor-Regular"
-  full_name: "Angkor Regular"
-  copyright: "Copyright 2020 The Angkor Project Authors (https://github.com/danhhong/Angkor)"
+  filename: "Angkor.ttf"
+  post_script_name: "Angkor"
+  full_name: "Angkor"
+  copyright: "Copyright (c) 2010, Danh Hong (khmertype.blogspot.com danhhong@gmail.com), with Reserved Font Name NiDA Angkor. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
 }
-subsets: "khmer"
-subsets: "latin"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/danhhong/Angkor"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "Release/ttf/Angkor-Regular.ttf"
-    dest_file: "Angkor-Regular.ttf"
-  }
-  branch: "master"
-}
-stroke: "SERIF"
-classifications: "DISPLAY"
+subsets: "khmer"

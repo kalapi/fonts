@@ -7,10 +7,10 @@ fonts {
   name: "Sansita One"
   style: "normal"
   weight: 400
-  filename: "SansitaOne-Regular.ttf"
-  post_script_name: "SansitaOne-Regular"
-  full_name: "Sansita One Regular"
+  filename: "SansitaOne.ttf"
+  post_script_name: "SansitaOne"
+  full_name: "Sansita One"
   copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com), with Reserved Font Name \"Sansita One\"."
 }
-subsets: "latin"
 subsets: "menu"
+subsets: "latin"

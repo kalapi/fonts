@@ -1,5 +1,5 @@
 name: "Limelight"
-designer: "Nicole Fally, Sorkin Type"
+designer: "Nicole Fally"
 license: "OFL"
 category: "DISPLAY"
 date_added: "2011-05-25"
@@ -15,5 +15,3 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
-stroke: "SANS_SERIF"
-classifications: "DISPLAY"

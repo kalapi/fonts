@@ -1,7 +1,7 @@
 name: "Dhyana"
 designer: "Vernon Adams"
 license: "OFL"
-category: "SANS_SERIF"
+category: "SERIF"
 date_added: "2011-12-15"
 fonts {
   name: "Dhyana"
@@ -23,6 +23,3 @@ fonts {
 }
 subsets: "menu"
 subsets: "lao"
-source {
-  repository_url: "https://github.com/vernnobile/DhyanaFont"
-}

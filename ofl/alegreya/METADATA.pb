@@ -1,5 +1,5 @@
 name: "Alegreya"
-designer: "Juan Pablo del Peral, Huerta Tipográfica"
+designer: "Huerta Tipográfica"
 license: "OFL"
 category: "SERIF"
 date_added: "2011-12-19"
@@ -7,47 +7,56 @@ fonts {
   name: "Alegreya"
   style: "normal"
   weight: 400
-  filename: "Alegreya[wght].ttf"
+  filename: "Alegreya-Regular.ttf"
   post_script_name: "Alegreya-Regular"
-  full_name: "Alegreya Regular"
-  copyright: "Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)"
+  full_name: "Alegreya"
+  copyright: "Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names \"Alegreya\" \"Alegreya SC\""
 }
 fonts {
   name: "Alegreya"
   style: "italic"
   weight: 400
-  filename: "Alegreya-Italic[wght].ttf"
+  filename: "Alegreya-Italic.ttf"
   post_script_name: "Alegreya-Italic"
   full_name: "Alegreya Italic"
-  copyright: "Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)"
+  copyright: "Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names \"Alegreya\" \"Alegreya SC\""
 }
-subsets: "cyrillic"
-subsets: "cyrillic-ext"
-subsets: "greek"
-subsets: "greek-ext"
+fonts {
+  name: "Alegreya"
+  style: "normal"
+  weight: 700
+  filename: "Alegreya-Bold.ttf"
+  post_script_name: "Alegreya-Bold"
+  full_name: "Alegreya Bold"
+  copyright: "Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names \"Alegreya\" \"Alegreya SC\""
+}
+fonts {
+  name: "Alegreya"
+  style: "italic"
+  weight: 700
+  filename: "Alegreya-BoldItalic.ttf"
+  post_script_name: "Alegreya-BoldItalic"
+  full_name: "Alegreya Bold Italic"
+  copyright: "Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names \"Alegreya\" \"Alegreya SC\""
+}
+fonts {
+  name: "Alegreya"
+  style: "normal"
+  weight: 900
+  filename: "Alegreya-Black.ttf"
+  post_script_name: "Alegreya-Black"
+  full_name: "Alegreya Black"
+  copyright: "Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names \"Alegreya\" \"Alegreya SC\""
+}
+fonts {
+  name: "Alegreya"
+  style: "italic"
+  weight: 900
+  filename: "Alegreya-BlackItalic.ttf"
+  post_script_name: "Alegreya-BlackItalic"
+  full_name: "Alegreya Black Italic"
+  copyright: "Copyright (c) 2011, Juan Pablo del Peral (juan@huertatipografica.com.ar), with Reserved Font Names \"Alegreya\" \"Alegreya SC\""
+}
+subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
-subsets: "menu"
-subsets: "vietnamese"
-axes {
-  tag: "wght"
-  min_value: 400.0
-  max_value: 900.0
-}
-source {
-  repository_url: "https://github.com/TypeNetwork/Alegreya"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "fonts/variable/Alegreya[wght].ttf"
-    dest_file: "Alegreya[wght].ttf"
-  }
-  files {
-    source_file: "fonts/variable/Alegreya-Italic[wght].ttf"
-    dest_file: "Alegreya-Italic[wght].ttf"
-  }
-  branch: "master"
-}
-minisite_url: "https://huertatipografica.com/en/fonts/alegreya-ht-pro"

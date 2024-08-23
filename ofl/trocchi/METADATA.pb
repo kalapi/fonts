@@ -8,25 +8,10 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Trocchi-Regular.ttf"
-  post_script_name: "Trocchi-Regular"
-  full_name: "Trocchi Regular"
-  copyright: "Copyright 2012 The Trocchi Project Authors (https://github.com/m4rc1e/Trocchi)"
+  post_script_name: "Trocchi"
+  full_name: "Trocchi"
+  copyright: "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk) with Reserved Font Name 'Trocchi'. All rights reserved."
 }
+subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
-subsets: "menu"
-source {
-  repository_url: "https://github.com/m4rc1e/Trocchi"
-  commit: "543ac4fee3173ed80706c4caf5398b8bb3439ae1"
-  files {
-    source_file: "fonts/ttf/Trocchi-Regular.ttf"
-    dest_file: "Trocchi-Regular.ttf"
-  }
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  branch: "master"
-}
-stroke: "SERIF"
-classifications: "DISPLAY"

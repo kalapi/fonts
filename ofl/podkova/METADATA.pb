@@ -7,24 +7,19 @@ fonts {
   name: "Podkova"
   style: "normal"
   weight: 400
-  filename: "Podkova[wght].ttf"
+  filename: "Podkova-Regular.ttf"
   post_script_name: "Podkova-Regular"
-  full_name: "Podkova Regular"
-  copyright: "Copyright 2011 The Podkova Project Authors (https://github.com/cyrealtype/Podkova)"
+  full_name: "Podkova"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org), with Reserved Font Name \"Podkova\"."
 }
-subsets: "cyrillic"
-subsets: "cyrillic-ext"
-subsets: "latin"
-subsets: "latin-ext"
+fonts {
+  name: "Podkova"
+  style: "normal"
+  weight: 700
+  filename: "Podkova-Bold.ttf"
+  post_script_name: "Podkova-Bold"
+  full_name: "Podkova Bold"
+  copyright: "Copyright (c) 2011, Cyreal (www.cyreal.org a@cyreal.org), with Reserved Font Name \"Podkova\"."
+}
 subsets: "menu"
-subsets: "vietnamese"
-axes {
-  tag: "wght"
-  min_value: 400.0
-  max_value: 800.0
-}
-source {
-  repository_url: "https://github.com/cyrealtype/Podkova"
-}
-stroke: "SERIF"
-classifications: "DISPLAY"
+subsets: "latin"

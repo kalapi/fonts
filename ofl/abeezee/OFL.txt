@@ -1,8 +1,8 @@
-Copyright 2011 The ABeeZee Project Authors (https://github.com/googlefonts/abeezee), with Reserved Font Name 'ABeeZee'
+Copyright (c) 2011 by Anja Meiners, with Reserved Font Name 'ABeeZee'
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
-https://scripts.sil.org/OFL
+http://scripts.sil.org/OFL
 
 
 -----------------------------------------------------------

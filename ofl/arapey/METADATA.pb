@@ -24,6 +24,3 @@ fonts {
 subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
-source {
-  repository_url: "https://github.com/etunni/arapey"
-}

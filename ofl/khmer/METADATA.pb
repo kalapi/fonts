@@ -1,7 +1,7 @@
 name: "Khmer"
 designer: "Danh Hong"
 license: "OFL"
-category: "SANS_SERIF"
+category: "DISPLAY"
 date_added: "2011-03-02"
 fonts {
   name: "Khmer"

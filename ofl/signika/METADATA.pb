@@ -6,36 +6,39 @@ date_added: "2011-11-23"
 fonts {
   name: "Signika"
   style: "normal"
-  weight: 400
-  filename: "Signika[GRAD,wght].ttf"
+  weight: 300
+  filename: "Signika-Light.ttf"
   post_script_name: "Signika-Light"
-  full_name: "Signika Light"
-  copyright: "Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika)."
+  full_name: "Signika-Light"
+  copyright: "Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com info@ancymonic.com), with Reserved Font Names \"Signika\"."
 }
+fonts {
+  name: "Signika"
+  style: "normal"
+  weight: 400
+  filename: "Signika-Regular.ttf"
+  post_script_name: "Signika-Regular"
+  full_name: "Signika"
+  copyright: "Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com info@ancymonic.com), with Reserved Font Names \"Signika\"."
+}
+fonts {
+  name: "Signika"
+  style: "normal"
+  weight: 600
+  filename: "Signika-Semibold.ttf"
+  post_script_name: "Signika-Semibold"
+  full_name: "Signika-Semibold"
+  copyright: "Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com info@ancymonic.com), with Reserved Font Names \"Signika\"."
+}
+fonts {
+  name: "Signika"
+  style: "normal"
+  weight: 700
+  filename: "Signika-Bold.ttf"
+  post_script_name: "Signika-Bold"
+  full_name: "Signika-Bold"
+  copyright: "Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com info@ancymonic.com), with Reserved Font Names \"Signika\"."
+}
+subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
-subsets: "menu"
-subsets: "vietnamese"
-axes {
-  tag: "GRAD"
-  min_value: -30.0
-  max_value: 0.0
-}
-axes {
-  tag: "wght"
-  min_value: 300.0
-  max_value: 700.0
-}
-source {
-  repository_url: "https://github.com/googlefonts/Signika"
-  commit: "7361a224d1d77274af1ea11dd06448c54c16f598"
-  files {
-    source_file: "fonts/variable/Signika[GRAD,wght].ttf"
-    dest_file: "Signika[GRAD,wght].ttf"
-  }
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  branch: "master"
-}

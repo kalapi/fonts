@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Sarpanch-Regular.ttf"
   post_script_name: "Sarpanch-Regular"
-  full_name: "Sarpanch Regular"
+  full_name: "Sarpanch"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
 fonts {
@@ -57,9 +57,7 @@ fonts {
   full_name: "Sarpanch Black"
   copyright: "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
 }
+subsets: "menu"
 subsets: "devanagari"
 subsets: "latin"
 subsets: "latin-ext"
-subsets: "menu"
-stroke: "SANS_SERIF"
-classifications: "DISPLAY"

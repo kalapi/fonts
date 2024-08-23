@@ -30,9 +30,6 @@ at marcelommp@gmail.com
 
 ChangeLog
 
-13 July 2017 (Marc Foley) Londrina Solid v1.002
-- Extra weights uploaded to Google Fonts
-
 11 March 2012 (Marcelo Magalhães) Londrina Solid v1.001
 - Initial release
 
@@ -46,7 +43,3 @@ N: Marcelo Magalhães
 E: marcelommp@gmail.com
 W: www.marcelomagalhaes.net 
 D: Original Type Designer
-
-N: Marc Foley
-E: m.foley.88@gmail.com
-D: engineer

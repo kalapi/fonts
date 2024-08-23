@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Asul-Regular.ttf"
   post_script_name: "Asul-Regular"
-  full_name: "Asul Regular"
+  full_name: "Asul"
   copyright: "Copyright (c) 2011, Mariela Monsalve (marmonsalve@gmail.com), with Reserved Font Name \"Asul\""
 }
 fonts {
@@ -21,7 +21,6 @@ fonts {
   full_name: "Asul Bold"
   copyright: "Copyright (c) 2011, Mariela Monsalve (marmonsalve@gmail.com), with Reserved Font Name \"Asul\""
 }
-subsets: "latin"
 subsets: "menu"
-stroke: "SERIF"
-classifications: "DISPLAY"
+subsets: "latin"
+subsets: "latin-ext"

@@ -7,10 +7,10 @@ fonts {
   name: "Coming Soon"
   style: "normal"
   weight: 400
-  filename: "ComingSoon-Regular.ttf"
-  post_script_name: "ComingSoon-Regular"
-  full_name: "Coming Soon Regular"
-  copyright: "Copyright (c) 2010 by Open Window. All rights reserved."
+  filename: "ComingSoon.ttf"
+  post_script_name: "ComingSoon"
+  full_name: "Coming Soon"
+  copyright: "Copyright (c) 2010 by Open Window (dathanboardman@gmail.com). All rights reserved."
 }
-subsets: "latin"
 subsets: "menu"
+subsets: "latin"

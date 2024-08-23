@@ -1,7 +1,7 @@
 name: "Nanum Gothic"
 designer: "Sandoll Communication"
 license: "OFL"
-category: "SANS_SERIF"
+category: "HANDWRITING"
 date_added: "2012-05-09"
 fonts {
   name: "Nanum Gothic"
@@ -30,6 +30,5 @@ fonts {
   full_name: "NanumGothicExtraBold"
   copyright: "Copyright © 2010 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
 }
-subsets: "korean"
-subsets: "latin"
 subsets: "menu"
+subsets: "korean"

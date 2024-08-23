@@ -1,8 +1,8 @@
-Copyright 2012 The Trocchi Project Authors (https://github.com/m4rc1e/Trocchi)
+Copyright (c) 2012, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Names "Trocchi"
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
-https://scripts.sil.org/OFL
+http://scripts.sil.org/OFL
 
 
 -----------------------------------------------------------

@@ -9,10 +9,9 @@ fonts {
   weight: 400
   filename: "Boogaloo-Regular.ttf"
   post_script_name: "Boogaloo-Regular"
-  full_name: "Boogaloo Regular"
+  full_name: "Boogaloo"
   copyright: "Copyright (c) 2011, John Vargas Beltran (www.johnvargasbeltran.com|john.vargasbeltran@gmail.com), with Reserved Font Name \"Boogaloo\"."
 }
-subsets: "latin"
 subsets: "menu"
-stroke: "SANS_SERIF"
-classifications: "DISPLAY"
+subsets: "latin"
+subsets: "latin-ext"

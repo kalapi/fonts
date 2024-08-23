@@ -14,5 +14,3 @@ fonts {
 }
 subsets: "menu"
 subsets: "latin"
-classifications: "DISPLAY"
-classifications: "HANDWRITING"

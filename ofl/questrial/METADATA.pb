@@ -1,5 +1,5 @@
 name: "Questrial"
-designer: "Joe Prince, Laura Meseguer"
+designer: "Joe Prince"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2011-08-10"
@@ -9,13 +9,8 @@ fonts {
   weight: 400
   filename: "Questrial-Regular.ttf"
   post_script_name: "Questrial-Regular"
-  full_name: "Questrial Regular"
-  copyright: "Copyright 2011 The Questrial Project Authors (https://github.com/googlefonts/questrial)"
+  full_name: "Questrial"
+  copyright: "Copyright (c) 2011, Admix Designs (http://www.admixdesigns.com joe@admixdesigns.com) with Reserved Font Name Questrial."
 }
-subsets: "latin"
-subsets: "latin-ext"
 subsets: "menu"
-subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/questrial"
-}
+subsets: "latin"

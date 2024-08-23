@@ -7,48 +7,38 @@ fonts {
   name: "Asap"
   style: "normal"
   weight: 400
-  filename: "Asap[wdth,wght].ttf"
+  filename: "Asap-Regular.ttf"
   post_script_name: "Asap-Regular"
-  full_name: "Asap Regular"
-  copyright: "Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)"
+  full_name: "Asap"
+  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name \"Asap\"."
 }
 fonts {
   name: "Asap"
   style: "italic"
   weight: 400
-  filename: "Asap-Italic[wdth,wght].ttf"
+  filename: "Asap-Italic.ttf"
   post_script_name: "Asap-Italic"
   full_name: "Asap Italic"
-  copyright: "Copyright 2018 The Asap Project Authors (https://github.com/Omnibus-Type/Asap)"
+  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name \"Asap\"."
 }
+fonts {
+  name: "Asap"
+  style: "normal"
+  weight: 700
+  filename: "Asap-Bold.ttf"
+  post_script_name: "Asap-Bold"
+  full_name: "Asap Bold"
+  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name \"Asap\"."
+}
+fonts {
+  name: "Asap"
+  style: "italic"
+  weight: 700
+  filename: "Asap-BoldItalic.ttf"
+  post_script_name: "Asap-BoldItalic"
+  full_name: "Asap Bold Italic"
+  copyright: "Copyright (c) 2011 by Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name \"Asap\"."
+}
+subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
-subsets: "menu"
-subsets: "vietnamese"
-axes {
-  tag: "wdth"
-  min_value: 75.0
-  max_value: 125.0
-}
-axes {
-  tag: "wght"
-  min_value: 100.0
-  max_value: 900.0
-}
-source {
-  repository_url: "https://github.com/Omnibus-Type/Asap"
-  commit: "927ab390d4ece9eaa70a3b16a6124baa9192e34c"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "fonts/variable/Asap[wdth,wght].ttf"
-    dest_file: "Asap[wdth,wght].ttf"
-  }
-  files {
-    source_file: "fonts/variable/Asap-Italic[wdth,wght].ttf"
-    dest_file: "Asap-Italic[wdth,wght].ttf"
-  }
-  branch: "master"
-}

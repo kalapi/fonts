@@ -7,17 +7,10 @@ fonts {
   name: "Indie Flower"
   style: "normal"
   weight: 400
-  filename: "IndieFlower-Regular.ttf"
-  post_script_name: "IndieFlower-Regular"
-  full_name: "Indie Flower Regular"
-  copyright: "Copyright 2010 The Indie Flower Authors (kimberlygeswein.com)"
+  filename: "IndieFlower.ttf"
+  post_script_name: "IndieFlower"
+  full_name: "Indie Flower"
+  copyright: "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com kimberlygeswein@gmail.com)"
 }
-subsets: "latin"
-subsets: "latin-ext"
 subsets: "menu"
-subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/indieflower"
-}
-classifications: "DISPLAY"
-classifications: "HANDWRITING"
+subsets: "latin"

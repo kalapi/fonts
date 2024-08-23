@@ -1,5 +1,5 @@
 name: "Bilbo"
-designer: "Robert Leuschke"
+designer: "TypeSETit"
 license: "OFL"
 category: "HANDWRITING"
 date_added: "2011-12-07"
@@ -10,25 +10,8 @@ fonts {
   filename: "Bilbo-Regular.ttf"
   post_script_name: "Bilbo-Regular"
   full_name: "Bilbo Regular"
-  copyright: "Copyright 2011 The Bilbo Project Authors (https://github.com/googlefonts/bilbo)"
+  copyright: "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"Bilbo\""
 }
+subsets: "menu"
 subsets: "latin"
 subsets: "latin-ext"
-subsets: "menu"
-subsets: "vietnamese"
-source {
-  repository_url: "https://github.com/googlefonts/bilbo"
-  files {
-    source_file: "OFL.txt"
-    dest_file: "OFL.txt"
-  }
-  files {
-    source_file: "DESCRIPTION.en_us.html"
-    dest_file: "DESCRIPTION.en_us.html"
-  }
-  files {
-    source_file: "fonts/ttf/Bilbo-Regular.ttf"
-    dest_file: "Bilbo-Regular.ttf"
-  }
-  branch: "master"
-}

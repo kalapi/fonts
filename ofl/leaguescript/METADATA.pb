@@ -7,15 +7,10 @@ fonts {
   name: "League Script"
   style: "normal"
   weight: 400
-  filename: "LeagueScript-Regular.ttf"
+  filename: "LeagueScript.ttf"
   post_script_name: "LeagueScript"
   full_name: "League Script"
-  copyright: "Copyright (c) 2010, Haley Fiege (haley@kingdomofawesome.com"
+  copyright: "Copyright (c) 2010, Haley Fiege (haley@kingdomofawesome.com)"
 }
-subsets: "latin"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/theleagueof/league-script-number-one"
-}
-classifications: "DISPLAY"
-classifications: "HANDWRITING"
+subsets: "latin"

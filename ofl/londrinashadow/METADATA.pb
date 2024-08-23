@@ -9,13 +9,8 @@ fonts {
   weight: 400
   filename: "LondrinaShadow-Regular.ttf"
   post_script_name: "LondrinaShadow-Regular"
-  full_name: "Londrina Shadow Regular"
-  copyright: "Copyright 2011 The Londrina Shadow Authors (https://github.com/marcelommp/Londrina-Typeface), with Reserved Font Name \"Londrina Shadow\""
+  full_name: "Londrina Shadow"
+  copyright: "Copyright (c) 2011 by Marcelo Magalhaes (marcelomagalhaes.net marcelommp@gmail.com), with Reserved Font Name \"Londrina\""
 }
-subsets: "latin"
 subsets: "menu"
-source {
-  repository_url: "https://github.com/marcelommp/Londrina-Typeface"
-}
-stroke: "SANS_SERIF"
-classifications: "DISPLAY"
+subsets: "latin"
